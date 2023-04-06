@@ -4,4 +4,4 @@ A project to practice CRUD operations and more using React JS with Typescript.
 
 
 ## Demo
-![image](assets/demo.png)
+![image](src/assets/demo.png)
