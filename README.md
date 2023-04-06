@@ -1,6 +1,6 @@
 # Notes with tags
 
-A project to practice CRUD operations and more using React JS with Typescript. 
+A project to practice CRUD operations, React Router Dom V6, and much more using React JS with Typescript. 
 
 
 ## Demo
