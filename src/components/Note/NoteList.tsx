@@ -54,6 +54,7 @@ export default function NoteList({
 		);
 	};
 
+	// Eediting tags
 	const handleChangeSpecificTag = (
 		id: string,
 		label: string
@@ -83,7 +84,7 @@ export default function NoteList({
 						<Link to="/new">
 							<Button variant="primary">Create</Button>
 						</Link>
-						<Button variant="outline-secondary" onClick={handleShow}>
+						<Button variant="outline-secondary" disabled={!Boolean(availableTags.length)} onClick={handleShow}>
 							Edit Tags
 						</Button>
 					</Stack>
