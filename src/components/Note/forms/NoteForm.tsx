@@ -66,7 +66,7 @@ export default function NoteForm({
 			tags: selectedTags,
 		});
 
-		if (inEditMode) navigate("..");
+		navigate("..");
 	};
 
 	return (
